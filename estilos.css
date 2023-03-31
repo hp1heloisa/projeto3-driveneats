@@ -140,7 +140,7 @@ img{
     justify-content: center;
     align-items: center;
 }
-button{
+.cinza{
     background: #CBCBCB;
     border-radius: 50px;
     width: 364px;
@@ -153,4 +153,7 @@ button{
     text-align: center;
     letter-spacing: 0.018em;
     color: #FFFFFF;
+}
+.botaoverde{
+    background-color: #32B72F;
 }
