@@ -51,9 +51,10 @@ body{
 }
 .opcoes{
     height: 220px;
-    width: 100%;
+    width: 614px;
     margin-top: 17px;
     display: flex;
+    justify-content: flex-start;
     overflow: scroll;
 }
 ::-webkit-scrollbar {
@@ -165,4 +166,77 @@ img{
 }
 .numero{
     margin-left:4px;
+}
+.confirmacao{
+    position: fixed;
+    top: 336px;
+    left: 40%;
+    width: 377px;
+    height: 353px;
+    background: #50D074;
+    box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.25);
+    border-radius: 9px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    z-index: 101;
+}
+.confirmacao p{
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 26px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.confirmacao button{
+    width: 329px;
+    height: 52px;
+    background: #FFFFFF;
+    border-radius: 100px;
+    border: none;
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 26px;
+    letter-spacing: 0.018em;
+    color: #50D074;
+}
+.cancela{
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    letter-spacing: 0.018em;
+    color: #FFFFFF;
+}
+.itens{
+    height: 147px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.itens2{
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 26px;
+    letter-spacing: 0.018em;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+    width: 326px;
+}
+.total{
+    font-weight: 700;
+}
+.ofuscado{
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.9);
+    z-index: 100;
 }

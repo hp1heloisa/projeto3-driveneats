@@ -56,7 +56,7 @@
             <div class="estilo coca" onclick="selecionaBebida('.coca')">
               <img src="./imagens/coca-cola.png" />
               <div class="texto">
-                <p class="nome">Coquinha gelada</p>
+                <p class="nome">Coquinha Gelada</p>
                 <p class="descricao">Lata 350ml</p>
                 <div class="preco">R$<div class="numero">4,90</div></div>
               </div>  
@@ -116,9 +116,21 @@
         </div>
       </div>
       <div class="baixo">
-        <button class="cinza" onclick="pedir()"><div class="meio">Selecione os 3 itens para fechar o pedido</div></button>
+        <button class="cinza" onclick="pedir()" disabled><div class="meio">Selecione os 3 itens para fechar o pedido</div></button>
+      </div>
+      <div class="confirmacao" style="display: none;">
+        <p>Confirme seu pedido</p>
+        <div class="itens">
+          <div class="itens2"><div class="entrada"></div> <div class="valore"></div></div>
+          <div class="itens2"><div class="drink"></div> <div class="valord"></div></div>
+          <div class="itens2"><div class="sobremesa"></div> <div class="valors"></div></div>
+          <div class=" itens2 total">TOTAL <div class="valot"></div></div>
+        </div>
+        <button onclick="wpp()">Tudo certo, pode pedir!</button>
+        <div class="cancela" onclick="voltar()">Cancelar</div>
       </div>
     </div>
+    <div class="branco"></div>
     <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
     <script src="./script.js"></script>
   </body>
