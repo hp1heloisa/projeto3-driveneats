@@ -83,10 +83,10 @@ function pedir(){
     let plate = document.querySelector(prato + ' .nome').innerHTML;
     let dk = document.querySelector(drink + ' .nome').innerHTML;
     let sobre = document.querySelector(sobremesa + ' .nome').innerHTML;
-    mensagem = `Olá, gostaria de fazer o pedido:/r/n- Prato: ${plate} \n- Bebida: ${dk} \n- Sobremesa: ${sobre} \nTotal: R$ ${total}`
+    mensagem = `Olá, gostaria de fazer o pedido:\n- Prato: ${plate} \n- Bebida: ${dk} \n- Sobremesa: ${sobre} \nTotal: R$ ${total}`
     const pessoa = prompt('Qual o seu nome?');
     const endereco = prompt('Qual o seu endereço?');
-    mensagem = mensagem + `\nNome: ${pessoa} \nEndereço: ${endereco}`;
+    mensagem = mensagem + `\n\nNome: ${pessoa} \nEndereço: ${endereco}`;
     mensagem = encodeURIComponent(mensagem);
     document.querySelector('.confirmacao .entrada').innerHTML = plate;
     document.querySelector('.confirmacao .drink').innerHTML = dk;
