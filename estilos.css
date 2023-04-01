@@ -170,7 +170,7 @@ img{
 .confirmacao{
     position: fixed;
     top: 336px;
-    left: 40%;
+    left: 150px;
     width: 377px;
     height: 353px;
     background: #50D074;
@@ -190,7 +190,7 @@ img{
     text-align: center;
     color: #FFFFFF;
 }
-.confirmacao button{
+.confirmacao button:nth-child(3){
     width: 329px;
     height: 52px;
     background: #FFFFFF;
@@ -210,6 +210,8 @@ img{
     line-height: 23px;
     letter-spacing: 0.018em;
     color: #FFFFFF;
+    background: none;
+    border: none;
 }
 .itens{
     height: 147px;

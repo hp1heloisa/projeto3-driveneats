@@ -95,12 +95,10 @@ function pedir(){
     document.querySelector('.confirmacao .valord').innerHTML = segundo;
     document.querySelector('.confirmacao .valors').innerHTML = terceiro;
     document.querySelector('.confirmacao .valot').innerHTML = 'R$ ' + total;
-    document.querySelector('.confirmacao').removeAttribute("style");
-}
+    document.querySelector('.confirmacao').removeAttribute("style");}
 function wpp(){
     window.open("https://wa.me/+5521999999999?text=" + mensagem);
 }
 function voltar(){
     document.querySelector('.confirmacao').setAttribute("style","display:none;");
-    enviar()
 }

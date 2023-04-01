@@ -21,30 +21,30 @@
         <div class="principal">
           <p class="titulo">Primeiro, seu prato</p>
           <div class="opcoes inicio">
-            <div class="estilo frango" onclick="selecionaPrato('.frango')">
+            <div class="estilo frango" onclick="selecionaPrato('.frango')" data-test="dish">
               <img src="./imagens/frango_yin_yang.png" />
               <div class="texto">
-                <p class="nome">Frango Yin Yang</p>
+                <p class="nome" data-test="item-name">Frango Yin Yang</p>
                 <p class="descricao">Um pouco de batata, um pouco de salada</p>
-                <div class="preco">R$<div class="numero">14,90</div></div>
+                <div class="preco" data-test="item-price">R$<div class="numero">14,90</div></div>
               </div>
               <ion-icon name="checkmark-circle" class="simbolo"></ion-icon>
             </div>
-            <div class="estilo carne" onclick="selecionaPrato('.carne')">
+            <div class="estilo carne" onclick="selecionaPrato('.carne')" data-test="dish">
               <img src="./imagens/carne.jpeg" />
               <div class="texto">
-                <p class="nome">Filé aos Queijos</p>
+                <p class="nome" data-test="item-name">Filé aos Queijos</p>
                 <p class="descricao">Acompanha batata e arroz</p>
-                <div class="preco">R$<div class="numero">18,90</div></div>
+                <div class="preco" data-test="item-price">R$<div class="numero">18,90</div></div>
               </div>
               <ion-icon name="checkmark-circle" class="simbolo"></ion-icon>
             </div>
-            <div class="estilo peixe" onclick="selecionaPrato('.peixe')">
+            <div class="estilo peixe" onclick="selecionaPrato('.peixe')" data-test="dish">
               <img src="./imagens/peixe.jpeg" />
               <div class="texto">
-                <p class="nome">Salmão Fitness</p>
+                <p class="nome" data-test="item-name">Salmão Fitness</p>
                 <p class="descricao">Acompanha salada e batata assada</p>
-                <div class="preco">R$<div class="numero">20,90</div></div>
+                <div class="preco" data-test="item-price">R$<div class="numero">20,90</div></div>
               </div>
               <ion-icon name="checkmark-circle" class="simbolo"></ion-icon>
             </div>
@@ -53,30 +53,30 @@
         <div class="principal">
           <p class="titulo">Agora, sua bebida</p>
           <div class="opcoes liquidos">
-            <div class="estilo coca" onclick="selecionaBebida('.coca')">
+            <div class="estilo coca" onclick="selecionaBebida('.coca')" data-test="drink">
               <img src="./imagens/coca-cola.png" />
               <div class="texto">
-                <p class="nome">Coquinha Gelada</p>
+                <p class="nome" data-test="item-name">Coquinha Gelada</p>
                 <p class="descricao">Lata 350ml</p>
-                <div class="preco">R$<div class="numero">4,90</div></div>
+                <div class="preco" data-test="item-price">R$<div class="numero">4,90</div></div>
               </div>  
               <ion-icon name="checkmark-circle" class="simbolo"></ion-icon>
             </div>
-            <div class="estilo suco" onclick="selecionaBebida('.suco')">
+            <div class="estilo suco" onclick="selecionaBebida('.suco')" data-test="drink">
               <img src="./imagens/suco.jpeg" />
               <div class="texto">
-                <p class="nome">Sucos Naturais</p>
+                <p class="nome" data-test="item-name">Sucos Naturais</p>
                 <p class="descricao">Temos suco de uva, laranja, abacaxi e morango</p>
-                <div class="preco">R$<div class="numero">7,00</div></div>
+                <div class="preco" data-test="item-price">R$<div class="numero">7,00</div></div>
               </div>  
               <ion-icon name="checkmark-circle" class="simbolo"></ion-icon>
             </div>
-            <div class="estilo agua" onclick="selecionaBebida('.agua')">
+            <div class="estilo agua" onclick="selecionaBebida('.agua')" data-test="drink">
               <img src="./imagens/agua.jpeg" />
               <div class="texto">
-                <p class="nome">Água de Coco</p>
+                <p class="nome" data-test="item-name">Água de Coco</p>
                 <p class="descricao">Um coco verde bem geladinho!</p>
-                <div class="preco">R$<div class="numero">3,50</div></div>
+                <div class="preco" data-test="item-price">R$<div class="numero">3,50</div></div>
               </div>  
               <ion-icon name="checkmark-circle" class="simbolo"></ion-icon>
             </div>      
@@ -85,30 +85,30 @@
         <div class="principal">
           <p class="titulo">Por fim, sua sobremesa</p>
           <div class="opcoes ultimo dessert">
-            <div class="estilo pudim" onclick="selecionaSobremesa('.pudim')">
+            <div class="estilo pudim" onclick="selecionaSobremesa('.pudim')" data-test="dessert">
               <img src="./imagens/pudim.png" />
               <div class="texto">
-                <p class="nome">Pudim</p>
+                <p class="nome" data-test="item-name">Pudim</p>
                 <p class="descricao">Um pudim bem cremoso e com bastante calda!</p>
-                <div class="preco">R$<div class="numero">7,90</div></div>
+                <div class="preco" data-test="item-price">R$<div class="numero">7,90</div></div>
               </div>  
               <ion-icon name="checkmark-circle" class="simbolo"></ion-icon>
             </div>
-            <div class="estilo petit" onclick="selecionaSobremesa('.petit')">
+            <div class="estilo petit" onclick="selecionaSobremesa('.petit')" data-test="dessert">
               <img src="./imagens/torta.jpeg" />
               <div class="texto">
-                <p class="nome">Petit Gateau</p>
+                <p class="nome" data-test="item-name">Petit Gateau</p>
                 <p class="descricao">Bolinho bem quentinho e recheado</p>
-                <div class="preco">R$<div class="numero">15,50</div></div>
+                <div class="preco" data-test="item-price">R$<div class="numero">15,50</div></div>
               </div>  
               <ion-icon name="checkmark-circle" class="simbolo"></ion-icon>
             </div>
-            <div class="estilo sorvete" onclick="selecionaSobremesa('.sorvete')">
+            <div class="estilo sorvete" onclick="selecionaSobremesa('.sorvete')" data-test="dessert">
               <img src="./imagens/sorvete.jpeg" />
               <div class="texto">
-                <p class="nome">Bola de Sorvete</p>
+                <p class="nome" data-test="item-name">Bola de Sorvete</p>
                 <p class="descricao">Temos sorvete de morango, baunilha e chocolate</p>
-                <div class="preco">R$<div class="numero">5,00</div></div>
+                <div class="preco" data-test="item-price">R$<div class="numero">5,00</div></div>
               </div>  
               <ion-icon name="checkmark-circle" class="simbolo"></ion-icon>
             </div>      
@@ -116,9 +116,9 @@
         </div>
       </div>
       <div class="baixo">
-        <button class="cinza" onclick="pedir()" disabled><div class="meio">Selecione os 3 itens para fechar o pedido</div></button>
+        <button class="cinza" onclick="pedir()" disabled data-test="order-btn"><div class="meio">Selecione os 3 itens para fechar o pedido</div></button>
       </div>
-      <div class="confirmacao" style="display: none;">
+      <div class="confirmacao" style="display: none;" data-test="confirm-order-modal">
         <p>Confirme seu pedido</p>
         <div class="itens">
           <div class="itens2"><div class="entrada"></div> <div class="valore"></div></div>
@@ -126,8 +126,8 @@
           <div class="itens2"><div class="sobremesa"></div> <div class="valors"></div></div>
           <div class=" itens2 total">TOTAL <div class="valot"></div></div>
         </div>
-        <button onclick="wpp()">Tudo certo, pode pedir!</button>
-        <div class="cancela" onclick="voltar()">Cancelar</div>
+        <button onclick="wpp()" data-test="confirm-order-btn">Tudo certo, pode pedir!</button>
+        <button class="cancela" onclick="voltar()" data-test="cancel-order-btn"><p>Cancelar</p></button>
       </div>
     </div>
     <div class="branco"></div>
