@@ -105,10 +105,12 @@ function pedir() {
   document.querySelector(".confirmacao .valors").innerHTML = terceiro;
   document.querySelector(".confirmacao .valot").innerHTML = "R$ " + total;
   document.querySelector(".porfora").removeAttribute("style");
+  document.querySelector(".ofuscado").removeAttribute("style");
 }
 function wpp() {
   window.open("https://wa.me/+5521999999999?text=" + mensagem);
 }
 function voltar() {
   document.querySelector(".porfora").setAttribute("style", "display:none;");
+  document.querySelector(".ofuscado").setAttribute("style", "display:none;");
 }
